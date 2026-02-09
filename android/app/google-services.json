@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "449035063159",
+    "project_id": "to-do-caymvi",
+    "storage_bucket": "to-do-caymvi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449035063159:android:ac2f48f597fc6956475b72",
+        "android_client_info": {
+          "package_name": "com.mycompany.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWmfV4XJdYBjH6o4xa3NQAMwCK3t-qi4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
