@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/firestore/user.schema.json",
+  "title": "User Document",
+  "type": "object",
+  "properties": {
+    "uid": {
+      "type": "string",
+      "description": "Firebase Authentication UID"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "birthdate": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Birthdate stored as Firestore Timestamp"
+    },
+    "created_time": {
+      "type": "string",
+      "format": "date-time",
+      "description": "User account creation timestamp"
+    },
+    "photo_url": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": [
+    "uid",
+    "display_name",
+    "email",
+    "created_time"
+  ],
+  "additionalProperties": false
+}
